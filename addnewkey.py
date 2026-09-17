@@ -1,0 +1,14 @@
+dict={
+    "name":"faiz",
+    "course":"bca",
+    "subject":{
+        "math":45,
+        "phy":54,
+        "chem":78,
+        "bio":25
+    }
+}
+dict["name"]="khan"
+dict["city"]="delhi"
+dict.pop("course")
+print(dict)
